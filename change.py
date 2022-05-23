@@ -4,7 +4,7 @@ import fileinput
 files = []
 
 for x in os.listdir():
-    if x == "main.py" or x == "chars.txt":
+    if x == "change.py" or x == "chars.txt":
         continue
 
     if os.path.isfile(x):
